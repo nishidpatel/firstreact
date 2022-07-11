@@ -3,55 +3,50 @@ import './App.css';
 
 function App() {
 
- let arr = [12,34,35,37,45];
- let ans = Array , isArray (arr)
- console.log(ans); 
+  // let arr = [11,22,33,44,55];
+  // let arr1 = [50,60];
 
-// ====================================
+  // let newarr = arr.concat(arr1);
+  // console.log(newarr);        //[11, 22, 33, 44, 55, 50, 60]
 
-//  let grid = [25,36,47,29,38,"x"];
-//  console.log(grid [3],grid); 
+  // =====================================
 
-//   const display = (Name,id) => {
-//     console.log(Name,id);
-// }
-// display ("nishid",10);
+  // let arr = [10,20,30,40,50];
+  // let ans = arr.some((a) => a> 20);
 
-//============================== 
-//  const x = 5;
-//  {
-//   const x =10;
-//  } 
-//  console.log(x);
+  // console.log(ans);     //true
 
-// let x = 5;
-// {
-//   let x = 10;
-// }
-
-// console.log(x);
-
-// ===========================
-  // const x;
-  // x = 5;
-
-  // console.log(x);
-
-  // let x;
-  // x = 5;
-
-  // console.log(x);
 
   // ======================================
-  // const x = 10;
-  // x = x + 5;
 
-  // console.log(x);
+  // let arr = [13,23,33]
 
-  // let x = 10;
-  // x = x + 5
+  // console.log(arr.toString(arr));
 
-  // console.log(x); 
+  // ========================================
+
+  // let arr = [10,20,30,40];
+  // let ans = arr.find((a) => a> 20);
+
+  //  console.log(ans);     //30
+
+  // =======================================
+
+  // let arr = [14,24,34,44];
+  // arr.splice (2,0,99);
+  // console.log(arr);    //[14, 24, 99, 34, 44]
+
+  // =======================================
+
+  // let obj = {
+  //   id : 101,
+  //   name : 'nishid'
+  // };
+
+  // console.log(obj.id,obj['name']);     //101 'nishid'
+
+
+
   return (
     <div className="App">
       <header className="App-header">
