@@ -37,7 +37,7 @@ function App() {
   // ==============================
 
   // let {id,name} = obj;
-  // console.log(name,obj,id);     //{id: 101, name: 'nishid'} 101
+  // console.log(name,obj,id);     //{id: 101, name: 'nishid'} 101 //
 
 
 
