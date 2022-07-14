@@ -62,10 +62,12 @@ function App() {
             <h3>{v.salary}</h3>
             <h4>{v.bonus}</h4>
             <h5>{v.bonus + v.salary}</h5>
+            <h4>{v.status.toString()}</h4>
             </div>
           )
         })
       }
+      <h5>totalprise :- {totalprise}</h5>
     </div>
   );
   }
