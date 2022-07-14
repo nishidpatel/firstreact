@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  let Data =
+  let data =
   [
     {
       grid: 123,
@@ -32,7 +32,7 @@ function App() {
   ]
 
 
-   let fdata = Data.filter((v,i)=>v.attendance > 71 );
+   let fdata = data.filter((v,i)=>v.attendance < 71 );
    console.log(fdata);
 
    let totalprise = fdata.reduce((acc,v,i)=> acc + v.fees,0);
@@ -44,17 +44,18 @@ function App() {
   return (
     <div>
       {
-        Data.map ((v,i) =>{
+        fdata.map ((v,i) =>{
           return(
             <div key={i}>
             <h1>{v.name}</h1>
             <h2>{v.grid}</h2>
             <h3>{v.fees}</h3>
-            <h4>{}</h4>
+            
             </div>
           )
         })
       }
+      <h3>totalprise :-{totalprise}</h3>
     </div>
   );
   }
