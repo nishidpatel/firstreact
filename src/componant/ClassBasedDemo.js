@@ -13,7 +13,7 @@ class ClassBasedDemo extends Component {
     }
 
 
-    changecuntry = () => {
+    changecity = () => {
         this.setState({
             cuntryname: 'uk'
         })

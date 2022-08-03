@@ -1,12 +1,12 @@
- import React from 'react';
-import ClassBasedDemo from './componant/ClassBasedDemo';
- 
- function App(props) {
+import React,{Component} from 'react';
+import City from './function/City';
+
+function App(props) {
     return (
         <div>
-            <ClassBasedDemo/>
+             <City />
         </div>
     );
- }
- 
- export default App;
+}
+
+export default App;
