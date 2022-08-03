@@ -8,14 +8,14 @@ class ClassBasedDemo extends Component {
         super(props);
 
         this.state = {
-            cityname: 'surat'
+            cuntryname: 'india'
         }
     }
 
 
-    changecity = () => {
+    changecuntry = () => {
         this.setState({
-            cityname: 'Baroda'
+            cuntryname: 'uk'
         })
     }
 
@@ -24,8 +24,8 @@ class ClassBasedDemo extends Component {
     render() {
         return (
             <div>
-                <p>{this.state.cityname}</p>
-                <button onClick={() => this.changecity()}>Changecity</button>
+                <p>{this.state.cuntryname}</p>
+                <button onClick={() => this.changecuntry()}>Changecuntry</button>
             </div>
         );
     }

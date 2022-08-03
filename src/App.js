@@ -4,7 +4,7 @@ import ClassBasedDemo from './componant/ClassBasedDemo';
  function App(props) {
     return (
         <div>
-            <ClassBasedDemo />
+            <ClassBasedDemo/>
         </div>
     );
  }
