@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Country(props) {
+function Cuntry(props) {
 
     const[CountryName , setCountryName] =useState('india');
 
@@ -17,4 +17,4 @@ function Country(props) {
     );
 }
 
-export default Country;
+export default Cuntry;
