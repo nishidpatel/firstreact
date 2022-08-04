@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import City from './City';
 
 function Cuntry(props) {
 
@@ -11,8 +12,10 @@ function Cuntry(props) {
     }
     return (
         <div>
+            
             <p>{CountryName}</p>
             <button onClick ={() => changeCountry()}>changeCountry</button>
+            <City Cuntry_name = {CountryName} />
         </div>
     );
 }
