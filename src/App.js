@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import Course from './function/Course';
+// import React, { Component } from 'react';
+// import Course from './function/Course';
+import Time from './function/Time';
 // import ClassBasedDemo from './container/ClassBasedDemo';
 // import Country from './container/Country';
 // import City from './Function/City';
@@ -13,7 +14,8 @@ function App(props) {
       {/* <Country/> */}
       {/* <City/> */}
       {/* <Cuntry/> */}
-      <Course/>
+      {/* <Course/> */}
+      <Time/>
     </div>
   );
 }
