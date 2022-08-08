@@ -16,13 +16,27 @@ class Time extends Component {
     }
 
     componentDidMount =()=>{
-        setInterval(() => this.tick(),1000)
+        this.time = setInterval(() => this.tick(),1000)
     }
+
+    componentDidUpdate = (prevprops,prevstate)=>{
+        if (prevstate.time !== this.state.time){
+            console.log("componentDidUpdate");
+        }
+    }
+
+    componentWillUnmount =()=>{
+        clearInterval(this.state);
+    }
+
+
 
 
     render() {
         return (
             <div>
+
+                
                 <p>{this.state.time.toLocaleTimeString()}</p>
             </div>
         );
